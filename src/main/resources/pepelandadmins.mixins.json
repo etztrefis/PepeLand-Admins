@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "pepelandadmins.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["PepelandAdminsMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pepelandadmins",
+  "version": "${version}",
+  "name": "PepeLand for Admins Mod",
+  "description": "so motherfucking helpful for pepeland 5 admins yo!",
+  "authors": ["trefis"],
+  "contact": {
+    "homepage": "https://trefis.net",
+    "sources": "https://github.com/HorusGoul/fabric-mod-starter"
+  },
+  "license": "MIT",
+  "icon": "assets/pepelandadmins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pepelandadmins.PepelandAdminsMod"]
+  },
+  "mixins": ["pepelandadmins.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.7.3",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

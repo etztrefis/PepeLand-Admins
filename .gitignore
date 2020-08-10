@@ -1,0 +1,20 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+remappedSrc/
+logs/
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# fabric
+
+run/
