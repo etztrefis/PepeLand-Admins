@@ -18,3 +18,10 @@ bin/
 # fabric
 
 run/
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
