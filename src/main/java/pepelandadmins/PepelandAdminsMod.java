@@ -2,17 +2,12 @@ package pepelandadmins;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.options.KeyBinding;
-import net.minecraft.client.options.StickyKeyBinding;
 import net.minecraft.client.util.InputUtil;
-import net.minecraft.text.LiteralText;
 import net.minecraft.world.GameMode;
 import org.lwjgl.glfw.GLFW;
-import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.event.client.ClientTickCallback;
-
-import java.util.Collection;
-import java.util.Collections;
+import net.minecraft.client.MinecraftClient;
 
 public class PepelandAdminsMod implements ModInitializer {
   private GameMode gameMode;
@@ -32,20 +27,16 @@ public class PepelandAdminsMod implements ModInitializer {
   ));
   ClientTickCallback.EVENT.register(client -> {
     while (spectator_switcher.wasPressed()) {
-      /*GameType[] gameTypes = GameType.values(); 
-      for(GameType gameType : gameTypes){
-        if(gameType != GameType.SPECTATOR){
-          client.player.sendChatMessage("/gamemode spectator");
-        } else if (gameType == GameType.SPECTATOR){
-          client.player.sendChatMessage("/gamemode survival");
-        }
-      }*/
-      client.player.sendChatMessage("/gamemode spectator");
+      if(!MinecraftClient.getInstance().player.isSpectator()){
+        client.player.sendChatMessage("/gamemode spectator");
+      }else {
+        client.player.sendChatMessage("/gamemode survival");
+      }
     }
   });
   ClientTickCallback.EVENT.register(client -> {
     while (creative_switcher.wasPressed()) {
-      if(!gameMode.isCreative()){
+      if(!MinecraftClient.getInstance().player.isCreative()){
 	    client.player.sendChatMessage("/gamemode creative");
     }else{
       client.player.sendChatMessage("/gamemode survival");
