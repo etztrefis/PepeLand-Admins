@@ -14,13 +14,13 @@ public class PepelandAdminsMod implements ModInitializer {
   @Override
   public void onInitialize() {
     KeyBinding spectator_switcher = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-      "Spectator switcher",
+      "Spectator switch",
       InputUtil.Type.KEYSYM,
       GLFW.GLFW_KEY_U,
       "Pepeland for admins"
   ));
   KeyBinding creative_switcher = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-      "Creative switcher",
+      "Creative switch",
       InputUtil.Type.KEYSYM,
       GLFW.GLFW_KEY_I,
       "Pepeland for admins"
