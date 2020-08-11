@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "id": "pepelandadmins",
-  "version": "${version}",
+  "version": "2.0.0",
   "name": "PepeLand for Admins Mod",
   "description": "so motherfucking helpful for pepeland 5 admins yo!",
   "authors": ["trefis"],
   "contact": {
     "homepage": "https://trefis.net",
-    "sources": "https://github.com/HorusGoul/fabric-mod-starter"
+    "sources": "https://github.com/etztrefis/Pepeland-Admins"
   },
   "license": "MIT",
   "icon": "assets/pepelandadmins/icon.png",
