@@ -2,7 +2,7 @@
 
 **Description**
 
-Mod helps PepeLand 5 admins with gamemode switches since using F3+N shortcup requiers an op permision.<br>
+Mod helps PepeLand 5 admins with gamemode switches since using F3+N hotkey requiers an op permision.<br>
 Here is [PepeLand 5](https://pepeland.club/) btw
 
 **Requirement:** 
