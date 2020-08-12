@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "pepelandadmins",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "name": "PepeLand for Admins Mod",
-  "description": "so motherfucking helpful for pepeland 5 admins yo!",
+  "description": "so motherfucking helpful for pepeland 5 admins!",
   "authors": ["trefis"],
   "contact": {
     "homepage": "https://trefis.net",
-    "sources": "https://github.com/etztrefis/Pepeland-Admins"
+    "sources": "https://github.com/etztrefis/Pepeland-Admins",
+    "issues": "https://github.com/etztrefis/Pepeland-Admins/issues"
   },
   "license": "MIT",
   "icon": "assets/pepelandadmins/icon.png",
