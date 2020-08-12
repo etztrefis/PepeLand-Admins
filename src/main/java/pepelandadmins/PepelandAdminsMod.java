@@ -12,7 +12,7 @@ import net.minecraft.client.MinecraftClient;
 
 public class PepelandAdminsMod implements ModInitializer {
   private GameMode gameMode;
-  int a = 0;
+  int i = 0;
   @Override
   public void onInitialize() {
     KeyBinding spectator_switcher = KeyBindingHelper.registerKeyBinding(new KeyBinding(
@@ -35,7 +35,7 @@ public class PepelandAdminsMod implements ModInitializer {
           client.player.sendChatMessage("/gamemode survival");
         }
       }});
-    
+
   /*ClientTickCallback.EVENT.register(client -> {
     while (spectator_switcher.wasPressed()) {
       if(!MinecraftClient.getInstance().player.isSpectator() || !MinecraftClient.getInstance().player.isCreative()) {
@@ -50,14 +50,14 @@ public class PepelandAdminsMod implements ModInitializer {
 
   ClientTickCallback.EVENT.register(client -> {
     while (creative_switcher.wasPressed()) {
-	    a++;
-      if(a % 2 == 0) {
+	    i++;
+      if(i % 2 == 0) {
         client.player.sendChatMessage("/gamemode survival");
       } else {
         client.player.sendChatMessage("/gamemode creative");
       }
+      //don`t ask me about this ^ LULW
   }
   });
-
 }
 }
