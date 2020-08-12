@@ -5,11 +5,14 @@
 Mod helps PepeLand 5 admins with gamemode switches since using F3+N shortcup requiers an op permision.<br>
 Here is [PepeLand 5](https://pepeland.club/) btw
 
-**Requirement:** 1.16.1 fabric
+**Requirement:** 
+
+>[1.16.1 fabric](https://fabricmc.net/use/) <br>
+>[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
 ## Mod download
 
-link in here FeelsDankMan
+https://www.curseforge.com/minecraft/mc-mods/pepeland-for-admins-mod
 
 ## Using
 
