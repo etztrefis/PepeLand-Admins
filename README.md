@@ -12,9 +12,8 @@ Here is [PepeLand 5](https://pepeland.club/) btw
 
 ## Mod download
 
-https://github.com/etztrefis/Pepeland-Admins/releases/tag/v0.2.2
-
->Currently not available https://www.curseforge.com/minecraft/mc-mods/pepeland-for-admins-mod
+>CurseForge https://www.curseforge.com/minecraft/mc-mods/pepeland-for-admins-mod
+>Github Releases https://github.com/etztrefis/Pepeland-Admins/releases/tag/v0.2.2
 
 ## Using
 
