@@ -12,7 +12,7 @@ Here is [PepeLand 5](https://pepeland.club/) btw
 
 ## Mod download
 
->CurseForge https://www.curseforge.com/minecraft/mc-mods/pepeland-for-admins-mod
+>CurseForge https://www.curseforge.com/minecraft/mc-mods/pepeland-for-admins-mod <br>
 >Github Releases https://github.com/etztrefis/Pepeland-Admins/releases/tag/v0.2.2
 
 ## Using
