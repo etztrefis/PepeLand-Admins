@@ -57,6 +57,7 @@ public class PepelandAdminsMod implements ModInitializer {
     ClientTickCallback.EVENT.register(client -> {
       while (co_switcher.wasPressed()) {
         client.player.sendChatMessage("/co i");
+
       }
     });
   }
