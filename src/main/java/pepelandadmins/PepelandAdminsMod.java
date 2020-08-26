@@ -33,6 +33,12 @@ public class PepelandAdminsMod implements ModInitializer {
             GLFW.GLFW_KEY_O,
             "Pepeland for admins"
     ));
+     /*KeyBinding mod_menu = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+            "Mod menu",
+            InputUtil.Type.KEYSYM,
+            GLFW.GLFW_KEY_U,
+            "Pepeland for admins"
+    ));*/
     ClientTickCallback.EVENT.register(client -> {
       while (spectator_switcher.wasPressed()) {
         if (!MinecraftClient.getInstance().player.isSpectator()) {
@@ -59,5 +65,10 @@ public class PepelandAdminsMod implements ModInitializer {
         client.player.sendChatMessage("/co i");
       }
     });
+    /*ClientTickCallback.EVENT.register(client -> {
+      while (mod_menu.wasPressed()) {
+        //some code in here 
+      }
+    });*/
   }
 }
