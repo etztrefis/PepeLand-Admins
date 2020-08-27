@@ -7,7 +7,7 @@ Here is [PepeLand 5](https://pepeland.club/) btw
 
 **Requirement:** 
 
->[1.16.2 fabric](https://fabricmc.net/use/) <br>
+>[Fabric](https://fabricmc.net/use/) <br>
 >[Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 
 ## Mod download
