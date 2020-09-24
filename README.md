@@ -13,13 +13,13 @@ Here is [PepeLand 5](https://pepeland.club/) btw
 ## Mod download
 
 >CurseForge https://www.curseforge.com/minecraft/mc-mods/pepeland-for-admins-mod <br>
->Github Releases https://github.com/etztrefis/Pepeland-Admins/releases/tag/v0.2.3
+>Github Releases https://github.com/etztrefis/Pepeland-Admins/releases/tag/0.2.4
 
 ## Using
 
 Press **U** (by default) for switch gamemode to **spectator**, press **U** again for switch back to **survival**.<br>
 Press **I** (by default) for switch gamemode to **creative**, press **I** again for switch back to **survival**. <br>
-Press **O** (by default) to turn on\off `/co i`.
+Press **O** (by default) to turn on/off `/co i`.
 
 Also you can always change **hotkeys** in game menu.
 
