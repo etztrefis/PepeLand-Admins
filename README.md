@@ -1,7 +1,7 @@
 # Pepeland for admins mod
 ![Github License](https://img.shields.io/github/license/etztrefis/pepeland-admins.svg)
 ![Github tag](https://img.shields.io/github/v/tag/etztrefis/pepeland-admins.svg?sort=semver)
-[![CurseForge downloads](https://cf.way2muchnoise.eu/pepeland-for-admins-mod.svg)](https://www.curseforge.com/minecraft/mc-mods/pepeland-for-admins-mod)
+[![CurseForge downloads](http://cf.way2muchnoise.eu/pepeland-for-admins-mod.svg)](https://www.curseforge.com/minecraft/mc-mods/pepeland-for-admins-mod)
 
 **Description**
 
